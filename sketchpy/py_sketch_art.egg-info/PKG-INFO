@@ -1,9 +1,9 @@
 Metadata-Version: 2.4
 Name: py-sketch-art
-Version: 0.0.2
+Version: 0.0.3
 Summary: A Python library for animating drawings of images and generating ASCII art.
-Author: Mr Mystery (Original) & Manus AI (Refactoring)
-Author-email: sriramanand23@gmail.com
+Author: Younis Dany
+Author-email: younisdany1@gmail.com
 Keywords: python,sketch,drawing,animation,pencil sketch,painting,sketchpy,draw,sketching,ascii art,image processing
 Classifier: Development Status :: 3 - Alpha
 Classifier: Intended Audience :: Developers
