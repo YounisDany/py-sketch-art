@@ -91,4 +91,4 @@ drawing.draw()
 
 ## شكر وتقدير
 
-شكر خاص للمطور الأصلي للمكتبة [MRMYSTERY003](https://github.com/MRMYSTERY003/sketchpy) على عمله الأساسي.
+تم تطوير هذه المكتبة بواسطة [Younis Dany](https://github.com/YounisDany/py-sketch-art) ([younisdany1@gmail.com](mailto:younisdany1@gmail.com)).

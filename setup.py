@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 import codecs
 import os
 
-VERSION = '0.0.1' # Initial version for the reworked package
+VERSION = '0.0.3' # Initial version for the reworked package
 DESCRIPTION = 'A Python library for animating drawings of images and generating ASCII art.'
 LONG_DESCRIPTION = """
 # Welcome to Sketchpy (Reimagined)
@@ -122,8 +122,8 @@ This project is licensed under the [MIT License](https://github.com/MRMYSTERY003
 setup(
     name="py-sketch-art", # Changed to a more generic name
     version=VERSION,
-    author="Mr Mystery (Original) & Manus AI (Refactoring)",
-    author_email="sriramanand23@gmail.com", # Original author's email
+    author="Younis Dany",
+    author_email="younisdany1@gmail.com", # Original author's email
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
     long_description=LONG_DESCRIPTION,
