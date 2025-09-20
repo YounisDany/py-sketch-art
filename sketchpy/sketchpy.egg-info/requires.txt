@@ -1,0 +1,6 @@
+opencv-python
+Pillow
+svg.path
+svgpathtools
+tqdm
+numpy
