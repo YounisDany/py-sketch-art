@@ -1,10 +1,36 @@
-from setuptools import setup, find_packages
-import codecs
-import os
+Metadata-Version: 2.4
+Name: py-sketch-art
+Version: 0.0.1
+Summary: A Python library for animating drawings of images and generating ASCII art.
+Author: Mr Mystery (Original) & Manus AI (Refactoring)
+Author-email: sriramanand23@gmail.com
+Keywords: python,sketch,drawing,animation,pencil sketch,painting,sketchpy,draw,sketching,ascii art,image processing
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: opencv-python
+Requires-Dist: Pillow
+Requires-Dist: svg.path
+Requires-Dist: svgpathtools
+Requires-Dist: tqdm
+Requires-Dist: numpy
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: keywords
+Dynamic: requires-dist
+Dynamic: summary
 
-VERSION = '0.0.1' # Initial version for the reworked package
-DESCRIPTION = 'A Python library for animating drawings of images and generating ASCII art.'
-LONG_DESCRIPTION = """
+
 # Welcome to Sketchpy (Reimagined)
 
 This is a reimagined and refactored version of the `sketchpy` library, designed for easier use and better organization. It allows you to create drawing animations from images, generate ASCII art, and draw predefined celebrity sketches using the `turtle` module.
@@ -116,47 +142,4 @@ Feel free to contribute to this project by submitting pull requests or reporting
 ## License
 
 This project is licensed under the [MIT License](https://github.com/MRMYSTERY003/sketchpy/blob/main/LICENSE).
-
-"""
-
-setup(
-    name="py-sketch-art", # Changed to a more generic name
-    version=VERSION,
-    author="Mr Mystery (Original) & Manus AI (Refactoring)",
-    author_email="sriramanand23@gmail.com", # Original author's email
-    description=DESCRIPTION,
-    long_description_content_type="text/markdown",
-    long_description=LONG_DESCRIPTION,
-    packages=find_packages(where="sketchpy"), # Look for packages in the 'sketchpy' directory
-    package_dir={'': 'sketchpy'}, # Map the root of the package to the 'sketchpy' directory
-    include_package_data=True,
-    install_requires=[
-        'opencv-python',
-        'Pillow',
-        'svg.path',
-        'svgpathtools',
-        'tqdm',
-        'numpy',
-
-        # 'torch', # Optional, if AI features are fully integrated and optimized
-        # 'requests', # Only if external APIs are used
-        # 'geocoder', # Only if location services are used
-        # 'geopy', # Only if location services are used
-    ],
-    keywords=[
-        'python', 'sketch', 'drawing', 'animation', 'pencil sketch', 'painting', 
-        'sketchpy', 'draw', 'sketching', 'ascii art', 'image processing'
-    ],
-    classifiers=[
-        "Development Status :: 3 - Alpha", # Changed to Alpha as it's a refactored version
-        "Intended Audience :: Developers",
-        "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.7",
-        "Programming Language :: Python :: 3.8",
-        "Programming Language :: Python :: 3.9",
-        "Programming Language :: Python :: 3.10",
-        "Programming Language :: Python :: 3.11",
-        "Operating System :: OS Independent", # More general
-    ],
-)
 

@@ -1,0 +1,7 @@
+README.md
+setup.py
+sketchpy/py_sketch_art.egg-info/PKG-INFO
+sketchpy/py_sketch_art.egg-info/SOURCES.txt
+sketchpy/py_sketch_art.egg-info/dependency_links.txt
+sketchpy/py_sketch_art.egg-info/requires.txt
+sketchpy/py_sketch_art.egg-info/top_level.txt
